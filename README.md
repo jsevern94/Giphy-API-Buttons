@@ -1,2 +1,2 @@
-# Giphy-API-Buttonsd
+# Giphy-API-Buttons
 First assignment using an API!
