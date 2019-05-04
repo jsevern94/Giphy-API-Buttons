@@ -59,9 +59,11 @@ $(document).ready(function () {
     //function for creating new buttons
     $("#add-country").on("click", function (event) {
         event.preventDefault();
-        countries.push($("#country-input").val());
-        $("#country-input").val("");
-        createButtons();
+        if ($("#country-input").val().trim()) {
+            countries.push($("#country-input").val().trim());
+            $("#country-input").val("");
+            createButtons();
+        }
     });
     createButtons();
 });
