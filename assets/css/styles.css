@@ -1,6 +1,20 @@
-button,
+.btn,
 div,
 form,
-input {
+input{
   margin: 10px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+label {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.gif-div {
+  float: left;
+  margin: 20px;
 }
