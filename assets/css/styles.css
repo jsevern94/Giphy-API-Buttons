@@ -18,3 +18,8 @@ label {
   float: left;
   margin: 20px;
 }
+
+body {
+  background-image: url("../images/world-physical-map.jpg");
+  background-size: 300px 150px;
+}
